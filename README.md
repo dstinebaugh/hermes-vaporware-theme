@@ -33,7 +33,7 @@ hermes plugins install dstinebaugh/hermes-vaporware-theme --no-enable
 hermes plugins enable vaporware-theme
 ```
 
-The Desktop half ships switched off: in Desktop open Settings > Plugins > Manage plugins and turn on the Desktop switch for Vaporware Theme (`hermes plugins enable` only turns on the agent half).
+The Desktop half ships switched off: in Desktop open Settings > Plugins > Manage plugins, filter the list to installed plugins only (it is easy to miss among the catalog entries), find Vaporware Theme and turn on its Desktop switch (`hermes plugins enable` only turns on the agent half).
 
 Then in Desktop run **Reload desktop plugins** from the command palette (or restart
 the app) and pick **Vaporware** in Settings > Appearance. Selecting the `vaporware`
