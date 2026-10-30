@@ -7,7 +7,7 @@
 #   Hack v3.003 (c) Source Foundry Authors - MIT + Bitstream Vera License
 name: vaporware
 label: Vaporware
-description: 80s retro vaporwave (monofur UI, Hack for chat and code)
+description: 80s retro vaporwave, teal on midnight purple (monofur UI, Hack for chat and code)
 
 palette:
   background:
@@ -19,7 +19,7 @@ palette:
   foreground:
     hex: "#ffffff"
     alpha: 0
-  warmGlow: "rgba(0, 240, 255, 0.18)"
+  warmGlow: "rgba(45, 226, 230, 0.22)"
   noiseOpacity: 1
 
 typography:
@@ -36,21 +36,26 @@ layout:
   density: comfortable
 
 colorOverrides:
-  card: "#1a1030"
+  card: "#130d1d"
   cardForeground: "#e6dcff"
-  border: "#3d2a5c"
-  input: "#3d2a5c"
-  muted: "#1a1030"
-  mutedForeground: "#8a7aa8"
-  primary: "#ff2bd6"
+  border: "#1f5f63"
+  input: "#1a1030"
+  muted: "#170f22"
+  mutedForeground: "#8a9bb0"
+  primary: "#2de2e6"
   primaryForeground: "#0a0612"
-  accent: "#00f0ff"
-  accentForeground: "#0a0612"
-  ring: "#00f0ff"
+  secondary: "#2a1d40"
+  secondaryForeground: "#e6dcff"
+  accent: "#0f3440"
+  accentForeground: "#e6dcff"
+  ring: "#1fb5a8"
   destructive: "#ff3860"
   destructiveForeground: "#0a0612"
-  success: "#39ff14"
+  success: "#2de2e6"
   warning: "#ffe600"
+
+terminalBackground: "#0a0612"
+terminalForeground: "#e6dcff"
 
 customCSS: |
   a {
@@ -60,3 +65,27 @@ customCSS: |
   pre, code, kbd, samp, textarea, .font-mono {
     font-family: var(--theme-font-mono) !important;
   }
+  /* Teal accents (matches the Desktop theme) */
+  nav a[aria-current="page"], nav a[aria-current="page"] svg {
+    color: #2de2e6 !important;
+    text-shadow: 0 0 8px rgba(45, 226, 230, 0.45);
+  }
+  nav a[aria-current="page"] > span[aria-hidden]:last-child {
+    background: #2de2e6 !important;
+    width: 2px !important;
+    box-shadow: 0 0 8px rgba(45, 226, 230, 0.6);
+  }
+  nav a:hover { color: #7af8ff !important; }
+  aside, header, nav, [class*="border-r"], [class*="border-b"], [class*="border-t"] {
+    border-color: #1f5f63 !important;
+  }
+  h1, h2, h3, [class*="text-display"], [class*="uppercase"][class*="tracking"] {
+    color: #2de2e6;
+  }
+  nav a:not([aria-current="page"]) { color: #b8acd6 !important; }
+  [class*="bg-success"], [class*="bg-green"], [class*="bg-emerald"] {
+    background-color: #2de2e6 !important;
+    box-shadow: 0 0 6px rgba(45, 226, 230, 0.7);
+  }
+  ::selection { background: rgba(45, 226, 230, 0.30); }
+  :focus-visible { outline-color: #2de2e6 !important; }
