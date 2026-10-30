@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 dstinebaugh
+
+name: vaporware-theme
+label: Vaporware Theme
+version: 0.1.0
+manifest_version: 2
+api_version: 1
+description: "80s retro vaporwave for Hermes Desktop, dashboard and TUI. Made for The Manor / Gizmo."
+author: dstinebaugh
+license: MIT
+homepage: https://github.com/dstinebaugh/hermes-vaporware-theme
+tags: [desktop, themes, appearance]
+requires_hermes: ">=0.21.3"

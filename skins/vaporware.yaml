@@ -1,0 +1,47 @@
+# Vaporware TUI skin for Hermes Agent. Made for The Manor / Gizmo by dstinebaugh.
+# Skins set colors and branding only; the TUI font comes from your terminal.
+name: vaporware
+description: Vaporware - retro neon theme (midnight background, hot pink primary, cyan accent).
+
+branding:
+  agent_name: Gizmo
+  welcome: "Welcome to The Manor."
+  goodbye: "Gizmo signing off."
+  response_label: "Gizmo>"
+  prompt_symbol: ">"
+  help_header: "Gizmo Commands"
+
+colors:
+  # surfaces and dark fills
+  status_bar_bg: "#0a0612"
+  status_bar_text: "#e6dcff"
+  status_bar_strong: "#ff2bd6"
+  status_bar_dim: "#8a7aa8"
+  status_bar_good: "#39ff14"
+  status_bar_warn: "#ffe600"
+  status_bar_bad: "#ff3860"
+  status_bar_critical: "#ff3860"
+  voice_status_bg: "#0a0612"
+  completion_menu_bg: "#1a1030"
+  completion_menu_current_bg: "#3d2a5c"
+  completion_menu_meta_bg: "#1a1030"
+  completion_menu_meta_current_bg: "#3d2a5c"
+  selection_bg: "#3d2a5c"
+  # foregrounds and text
+  banner_text: "#e6dcff"
+  banner_border: "#8a7aa8"
+  banner_title: "#ff2bd6"
+  banner_accent: "#ff2bd6"
+  banner_dim: "#8a7aa8"
+  ui_accent: "#00f0ff"
+  ui_label: "#ff2bd6"
+  ui_ok: "#39ff14"
+  ui_error: "#ff3860"
+  ui_warn: "#ffe600"
+  # prompts, headers, banner
+  prompt: "#ff2bd6"
+  input_rule: "#8a7aa8"
+  response_border: "#00f0ff"
+  session_label: "#8a7aa8"
+  session_border: "#8a7aa8"
+  shell_dollar: "#ff2bd6"
