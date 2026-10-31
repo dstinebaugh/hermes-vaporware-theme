@@ -3,8 +3,8 @@
 80s retro vaporwave theme for Hermes Agent: the web dashboard, Hermes Desktop and
 the TUI. Made for The Manor / Gizmo by dstinebaugh.
 
-Midnight background, hot pink primary, cyan accent, neon green / yellow / red
-status colors. monofur for the interface, Hack for chat, tool output, terminal and code.
+Midnight background, A nice Cyan-ish primary, cyan accent, neon green / yellow / red
+status colors. monofur font for the interface, Hack font for chat, tool output, terminal and code.
 
 **Desktop**
 
