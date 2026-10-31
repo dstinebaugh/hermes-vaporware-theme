@@ -6,8 +6,17 @@ the TUI. Made for The Manor / Gizmo by dstinebaugh.
 Midnight background, hot pink primary, cyan accent, neon green / yellow / red
 status colors. monofur for the interface, Hack for chat, tool output, terminal and code.
 
-![Vaporware screenshot](images/screenshot.png)
-<!-- TODO: add images/screenshot.png -->
+**Desktop**
+
+![Vaporware theme in Hermes Desktop](images/vaporwave-desktop.png)
+
+**Dashboard (web UI)**
+
+![Vaporware theme in the Hermes web dashboard](images/vaporwave-webui.png)
+
+**TUI**
+
+![Vaporware skin in the Hermes TUI](images/vaporwave-tui.png)
 
 ## What is in here
 
