@@ -1,7 +1,7 @@
 # Vaporware TUI skin for Hermes Agent. Made for The Manor / Gizmo by dstinebaugh.
 # Skins set colors and branding only; the TUI font comes from your terminal.
 name: vaporware
-description: Vaporware - retro neon theme (midnight background, teal/cyan primary, muted teal borders).
+description: Vaporware - retro neon theme (midnight background, teal/cyan primary, subtle purple borders).
 
 branding:
   agent_name: Gizmo
@@ -29,7 +29,7 @@ colors:
   selection_bg: "#1f3f4a"
   # foregrounds and text
   banner_text: "#e6dcff"
-  banner_border: "#1fb5a8"
+  banner_border: "#4a3870"
   banner_title: "#2de2e6"
   banner_accent: "#00f0ff"
   banner_dim: "#8a9bb0"
@@ -40,8 +40,8 @@ colors:
   ui_warn: "#ffe600"
   # prompts, headers, banner; error/success/warning statuses
   prompt: "#2de2e6"
-  input_rule: "#1fb5a8"
-  response_border: "#00f0ff"
+  input_rule: "#4a3870"
+  response_border: "#4a3870"
   session_label: "#2de2e6"
-  session_border: "#1fb5a8"
+  session_border: "#4a3870"
   shell_dollar: "#2de2e6"
