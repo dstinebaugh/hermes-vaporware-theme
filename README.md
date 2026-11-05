@@ -80,6 +80,12 @@ list `'monofur'` first and fall back to Hack. To use it now, install monofur
 locally (for example from https://github.com/chrissimpkins/codeface/tree/master/fonts/monofur)
 together with its license text.
 
+## Slack Theme
+In case you use slack, this makes them match pretty good. Paste this string into Preferences > Appearance > Themes > Custom > Import
+```text
+#0a0612,#170f22,#1f3f4a,#0a0612,#170f22,#e6dcff,#7dff5c,#ff2bd6
+```
+
 ## Credits
 
 - Theme: dstinebaugh, for The Manor / Gizmo.
